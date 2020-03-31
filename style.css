@@ -1,3 +1,6 @@
+:root {
+    --birthday-gradient: linear-gradient(to right, rgb(119, 255, 119), rgb(255, 133, 133), rgb(66, 148, 255), rgb(255, 255, 115), rgb(255, 133, 255), orange);
+}
 body {
     background-image: url('bg.png');
     background-size: cover;
@@ -17,7 +20,7 @@ h1 {
     text-align: center;
     width:fit-content;
     margin:auto;
-    background-image: linear-gradient(to right, rgb(51, 233, 51), rgb(255, 133, 133), rgb(66, 148, 255), rgb(255, 255, 94), rgb(245, 43, 245), orange);
+    background-image: var(--birthday-gradient);
     border-radius: 60px;
     padding: 12px;
     color: white;
@@ -61,7 +64,7 @@ iframe {
 .container p{
     color: white;
     text-shadow: 1.5px 1.5px 1px black;
-    background-image: linear-gradient(to right, rgb(51, 233, 51), rgb(255, 133, 133), rgb(66, 148, 255), rgb(255, 255, 94), rgb(245, 43, 245), orange);
+    background-image: var(--birthday-gradient);
     border-radius: 10px;
     padding: 13px;
     font-size: 23pt;
