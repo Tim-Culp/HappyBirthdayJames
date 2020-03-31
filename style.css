@@ -69,6 +69,7 @@ iframe {
     padding: 13px;
     font-size: 23pt;
     margin: auto;
+    font-family: cursive;
 }
 
 @media (max-width: 1262px) {
